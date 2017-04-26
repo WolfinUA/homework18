@@ -1,0 +1,41 @@
+.wayticket {
+  background: #4b1966;
+  font-family: monospace;
+}
+.centered {
+  text-align: center;
+}
+.imgwithtxt {
+  background: url("./images/1bg.png") no-repeat center top;
+  margin-top: 50px;
+  padding-top: 20px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.imgwithtxt h4 {
+  margin-top: 50px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.ft{
+  color: white;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.w{
+  padding-top: 35px;
+
+}
+.w h3 {
+  font-size: 40px;
+}
