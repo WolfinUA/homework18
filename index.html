@@ -13,6 +13,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 <body>
   <header>
@@ -28,24 +30,21 @@
         </div>
 
       <div class="row infotravel">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-lg-offset-1">
          <div class="row centered">
-          <i class="fa fa-child"></i>
-          <h4 class="cetered ft">Small information</h4>
+          <h4 class="cetered ft"><i class="fa fa-child"></i>Small information</h4>
           <p class="centered ft">In our trip agency we have 2 types of travelling: Hike and By bus</p>
          </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-lg-offset-1">
          <div class="row centered">
-          <i class="fa fa-male"></i>
-          <h4 class="centered ft">Hiking</h4>
+          <h4 class="centered ft"><i class="fa fa-male"></i>Hiking</h4>
             <p class="centered ft">We can offer: Walking along the River Rhine, Eagles Nest and Discover the Black Forest tours</p>
          </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-lg-offset-3">
          <div class="row centered">
-          <i class="fa fa-bus"></i>
-          <h4 class="centered ft">By bus</h4>
+          <h4 class="centered ft"><i class="fa fa-bus"></i>By bus</h4>
           <p class="centered ft">Travel by bus it easy and we can offer to go many popular vacation places</p>
         </div>
        </div>
@@ -56,6 +55,7 @@
   <main>
     <div class="container pp">
       <div class="col-lg-8">
+        <div class="row">
         <div class="carousel slide" id="myCarousel">
          <div class="carousel-inner">
 
@@ -82,17 +82,53 @@
           <span class="icon-next"></span> </a>
       </div>
     </div>
+    </div>
 
     <div class="container w">
       <div class="row centered">
-        <div class="col-lg-4">
-          <i class=".fa-camera-retro"></i>
-          <h3>Photo</h3>
+        <div class="col-lg-4 row">
+          <h3><span class="glyphicon glyphicon-camera"></span>Photo</h3>
           <p>There many toursists atraction which you can photograph, so don't forget your photograph</p>
         </div>
       </div>
     </div>
   </div>
   </main>
+
+
+  <footer>
+   <div class="container">
+    <div class="col-lg-4">
+      <h2>Fill out the form to register</h2>
+      <form>
+        <div class="form-group">
+          <label for="Name">Name:</label>
+          <input type="name" placeholder="Enter full name" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="coment">Discribe what you want:</label>
+          <textarea type="text" class="form-control" rows="5" id="comment" placeholder="Massege"></textarea>
+        </div>
+        <button type="submit" name="Submit" class="btn btn-danger"><span class="glyphicon glyphicon-send"></span> SEND</button>
+      </form>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="row">
+       <img src="./images/map.png" alt="map">
+     </div>
+    </div>
+
+   </div>
+
+   <div class="nuz centered">
+     <p>Powered by:bodik</p>
+     <p class="black">oneself</p>
+   </div>
+  </footer>
 </body>
 </html>
